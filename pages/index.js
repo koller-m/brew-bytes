@@ -55,7 +55,6 @@ export default function Home() {
     setUserInput("");
 
     const data = await response.json();
-    console.log(data)
 
     if (!data) {
       handleError();
